@@ -18,10 +18,10 @@ html{
 }
 
 body{
-    margin:0;
+    margin: 0px;
     font-family:'Poppins',sans-serif;
     background:#031b43;
-    color:white;
+    color: white;
 }
 
 
@@ -44,11 +44,13 @@ header .container{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:18px 0;
+    padding:5px 0;
 }
 
 .logo img{
-    height:60px;
+   height: 800px;
+  transform: scale(1.4);    /* Aumenta em 40% o tamanho visual sem afetar o layout */
+  transform-origin: left center; /* Mantém a logo alinhada à esquerda */
 }
 
 nav ul{
@@ -159,7 +161,6 @@ nav a:hover{
     color:#003366;
 }
 
-
 .cards{
     display:grid;
     grid-template-columns:repeat(3,1fr);
@@ -230,7 +231,7 @@ nav a:hover{
     margin-top:45px;
     max-width:700px;
 
-    background:#fff;
+    background:#ff0000;
     border-radius:15px;
 
     padding:50px;
@@ -396,7 +397,7 @@ label:hover{
 
     margin:auto;
 
-    background:white;
+    background:rgb(255, 254, 254);
 
     padding:30px;
 
@@ -446,7 +447,7 @@ footer{
 
     color:#fff;
 
-    padding:40px 0;
+    padding:5px 0;
 
     text-align:center;
 
@@ -483,6 +484,8 @@ footer{
     .hero h1{
 
         font-size:40px;
+    
+    
 
     }
 
@@ -510,6 +513,7 @@ footer{
     .hero h1{
 
         font-size:32px;
+    
 
     }
 
@@ -557,6 +561,7 @@ footer{
 
     .hero h1{
         font-size:32px;
+       
     }
 
     .hero p{
